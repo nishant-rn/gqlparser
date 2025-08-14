@@ -3,10 +3,10 @@ package validator
 import (
 	"sort"
 	//nolint:staticcheck // bad, yeah
-	. "github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/gqlerror"
-	"github.com/vektah/gqlparser/v2/validator/core"
-	validatorrules "github.com/vektah/gqlparser/v2/validator/rules"
+	. "github.com/nishant-rn/gqlparser/v2/ast"
+	"github.com/nishant-rn/gqlparser/v2/gqlerror"
+	"github.com/nishant-rn/gqlparser/v2/validator/core"
+	validatorrules "github.com/nishant-rn/gqlparser/v2/validator/rules"
 )
 
 type (

@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/agnivade/levenshtein"
-	"github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/gqlerror"
+	"github.com/nishant-rn/gqlparser/v2/ast"
+	"github.com/nishant-rn/gqlparser/v2/gqlerror"
 )
 
 func Message(msg string, args ...interface{}) ErrorOption {

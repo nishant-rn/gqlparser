@@ -4,11 +4,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/vektah/gqlparser/v2/gqlerror"
+	"github.com/nishant-rn/gqlparser/v2/gqlerror"
 
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/parser/testrunner"
+	"github.com/nishant-rn/gqlparser/v2/ast"
+	"github.com/nishant-rn/gqlparser/v2/parser/testrunner"
 )
 
 func TestLoadSchema(t *testing.T) {

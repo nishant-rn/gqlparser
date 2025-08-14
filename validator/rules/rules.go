@@ -3,7 +3,7 @@ package rules
 import (
 	"slices"
 
-	"github.com/vektah/gqlparser/v2/validator/core"
+	"github.com/nishant-rn/gqlparser/v2/validator/core"
 )
 
 // Rules manages GraphQL validation rules.

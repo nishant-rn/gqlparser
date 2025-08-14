@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser/v2/validator/core"
-	"github.com/vektah/gqlparser/v2/validator/rules"
+	"github.com/nishant-rn/gqlparser/v2/validator/core"
+	"github.com/nishant-rn/gqlparser/v2/validator/rules"
 )
 
 // newDummyRule returns a dummy Rule for testing purposes.

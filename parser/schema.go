@@ -1,8 +1,8 @@
 package parser
 
 import (
-	. "github.com/vektah/gqlparser/v2/ast" //nolint:staticcheck // bad, yeah
-	"github.com/vektah/gqlparser/v2/lexer"
+	. "github.com/nishant-rn/gqlparser/v2/ast" //nolint:staticcheck // bad, yeah
+	"github.com/nishant-rn/gqlparser/v2/lexer"
 )
 
 func ParseSchemas(inputs ...*Source) (*SchemaDocument, error) {

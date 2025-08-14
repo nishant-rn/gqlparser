@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/vektah/gqlparser/v2/gqlerror"
+	"github.com/nishant-rn/gqlparser/v2/gqlerror"
 )
 
 type AddErrFunc func(options ...ErrorOption)
