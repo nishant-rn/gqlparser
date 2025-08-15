@@ -95,9 +95,9 @@ func (p *parser) parseSchemaDocument() *SchemaDocument {
 		case "directive":
 			doc.Directives = append(doc.Directives, p.parseDirectiveDefinition(description))
 		case "extend":
-			if description.text != "" {
-				p.unexpectedToken(p.prev)
-			}
+			//if description.text != "" {
+			//	p.unexpectedToken(p.prev)
+			//}
 			p.parseTypeSystemExtension(&doc)
 		default:
 			p.unexpectedError()
